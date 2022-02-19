@@ -37,3 +37,12 @@ function multiplicar(numA, numB){
 }
 multiplicar(4,2)
 
+//função para incluir um texto no inicio de uma url.
+function dominio(url)
+{
+  if(url)
+    return "http://" + url;
+  else
+    console.log(url+" não informada");
+}
+
