@@ -19,8 +19,12 @@ console.log(profissão);
 
 let destinosIncriveis = ['Marrocos', 'Bariloche', 'Barcelona', 'China', 'Grecia']
 
-let [Bariloche] = destinosIncriveis;
-let [China] = destinosIncriveis;
+let [marrocos, bariloche, barcelona, china, grecia] = destinosIncriveis
 
-console.log(Bariloche);
-console.log(China);
+//aqui caso eu queira resgatar pela posição do valor no array
+let [,Bariloche] = destinosIncriveis;
+let [,,,China] = destinosIncriveis;
+
+
+console.log(bariloche);
+console.log(china);
